@@ -45,17 +45,17 @@ Follow these steps to set up the project on your local machine:
    ```
 2. **For testing in Postman**
 
-  **Submit a Question:**
-   **Endpoint:** `POST /chat`
-
-   **Request Body:**
-   ```json
-   {
-    "question": "What is the capital of France?"
-    "model": "llama-3.1-8b-instant",
-    "temperature": 0.2
-   }
-   ```
+    **Submit a Question:**
+     **Endpoint:** `POST /chat`
+  
+     **Request Body:**
+     ```json
+     {
+      "question": "What is the capital of France?"
+      "model": "llama-3.1-8b-instant",
+      "temperature": 0.2
+     }
+     ```
 
 
 ## Code Explanation
